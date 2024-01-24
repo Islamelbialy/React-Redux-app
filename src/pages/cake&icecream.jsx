@@ -3,7 +3,6 @@ import { buyCake, buyIcecream } from "../component/redux/Action";
 import { connect } from "react-redux";
 
 const CakeAndicecream = (probs) => {
-  console.log(probs);
   return (
     <div>
       <h1>
