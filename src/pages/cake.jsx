@@ -1,7 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { buyCake } from "../redux/Action";
-
+import { buyCake } from "../component/redux/Action";
 const Cake = (probs) => {
   return (
     <div>

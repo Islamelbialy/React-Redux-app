@@ -1,10 +1,11 @@
 import './App.css';
 import { Provider } from 'react-redux';
 import { store } from './component/redux/store';
-import CakeHook from './component/cake/cakeHook';
-import Icecream from './component/iceCream/icecream';
-import IcecreamHook from './component/iceCream/icecreamHook';
-import Cake from './component/cake/cake';
+import Cake from './pages/cake';
+import Icecream from './pages/icecream';
+import CakeHook from './pages/cakeHook';
+import IcecreamHook from './pages/icecreamHook';
+import CakeAndicecream from './pages/cake&icecream';
 
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
         <p>*********************</p>
         <Icecream/><br/>
         <IcecreamHook/>
+        <p>*********************</p>
+        <CakeAndicecream Cake />
+        <CakeAndicecream Icecream />
       </Provider>
     </div>
   );

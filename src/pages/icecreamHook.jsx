@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { buyIcecream } from "../redux/Action";
+import { buyIcecream } from "../component/redux/Action";
 
 const IcecreamHook = (probs) => {
   const state = useSelector((state) => state);
